@@ -1,2 +1,2 @@
-# stocksAnalysis
-The aim of this project is to make financial analysis of Brazilian companies.
+# Análise de Ativos
+O Objetivo desse projeto é fazer análise de alguns ativos brasileiros
