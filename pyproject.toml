@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "analise-de-ativos"
+version = "0.1.0"
+description = ""
+authors = ["Max Lemes <maxvlemes@gmail.com>"]
+readme = "README.md"
+packages = [{include = "analise_de_ativos"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.30.0"
+pandas = "^2.2.0"
+pysqlite3 = "^0.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+blue = "^0.9.1"
+pytest = "^7.4.4"
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
