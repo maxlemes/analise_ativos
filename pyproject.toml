@@ -10,7 +10,7 @@ packages = [{include = "analise_de_ativos"}]
 python = "^3.11"
 streamlit = "^1.30.0"
 pandas = "^2.2.0"
-pysqlite3 = "^0.5.2"
+# pysqlite3 = "^0.5.2"
 
 
 [tool.poetry.group.dev.dependencies]
