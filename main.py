@@ -4,6 +4,7 @@ import streamlit as st
 # carregando as funções em outros arquivos .py
 import src.page.insert as insert
 import src.page.select as select
+import src.page.delete as delete
 
 
 # criando a barra lateral do menu
@@ -18,6 +19,9 @@ if page == 'Inserir':
 
 if page == 'Consultar':
     select.consultar()
+
+if page == 'Deletar':
+    delete.deletar()
 
 
 
