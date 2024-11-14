@@ -1,22 +1,20 @@
 [tool.poetry]
-name = "analise-de-ativos"
+name = "analise-ativos"
 version = "0.1.0"
-description = ""
+description = "Projeto para analise de ativos"
 authors = ["Max Lemes <maxvlemes@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-packages = [{include = "analise_de_ativos"}]
+
+# Configuração de pacotes
+# Configuração para o Poetry identificar a pasta src
+packages = [
+    {include = "meu_projeto", from = "src"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-streamlit = "^1.30.0"
-pandas = "^2.2.0"
 
-
-[tool.poetry.group.dev.dependencies]
-isort = "^5.13.2"
-blue = "^0.9.1"
-pytest = "^7.4.4"
-mkdocs = "^1.5.3"
 
 [build-system]
 requires = ["poetry-core"]
